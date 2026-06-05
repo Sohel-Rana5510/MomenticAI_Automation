@@ -1,0 +1,41 @@
+fileType: momentic/test/v2
+id: nippy-special-trade-adapts-zestily
+version: 1.0.24
+url: https://qrdev.deepmindlabs.ai
+description: Token Create
+defaultEnv: web
+viewport: 1920, 1080
+browserType: Chromium
+steps:
+  - click: the combobox button for choosing a branch (Search or select a branch
+      location)
+  - click: the 'Baridhara' option in the branch dropdown list
+  - click: the Start check-in button in the center form card
+  - click: the Get Token button in the Baridhara card
+  - click: the Cash Services option button in the check-in modal
+  - click: the 'Deposit / Withdrawal' option button in the check-in dialog
+  - type:
+      text: "01795190514"
+      into: the mobile number input in the check-in flow modal
+      clear: never
+  - click: the full name text input in the check-in flow dialog
+  - press: Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Backspace+Shift
+  - type:
+      text: Sohel Rana Showrov
+      clear: never
+  - click: the submit button in the check-in dialog's contact information form
+  - mouseDrag:
+      from: the phone number input (name="phoneNumber") in the Check-in flow contact
+        information dialog
+      delta:
+        x: -213
+        y: -9
+  - scrollDown: 350
+  - type:
+      text: "123456"
+      into: the verification code input in the 'Verify your phone' modal
+      clear: never
+  - click: the confirm button labeled 'Verify & continue' in the phone verification
+      dialog
+  - click: the View Token button in the 'Check‑in failed' modal
+  - scrollUp: 1566

@@ -1,0 +1,32 @@
+{
+  "gitMainBranch": "main",
+  "gitProtectedBranches": [
+    "main"
+  ],
+  "ciProvider": "none",
+  "gitOriginUrl": "origin",
+  "gitLocalEmail": "sohelranashowrov@gmail.com",
+  "gitLocalName": "Sohel-Rana5510",
+  "id": "2eea6c20-ebdc-4e16-88d4-7c884aae8ca4",
+  "trigger": "CLI",
+  "startedAt": "2026-06-01T18:07:54.511Z",
+  "status": "FAILED",
+  "cliVersion": "2.125.0",
+  "labels": [],
+  "ai": {
+    "useMemory": true,
+    "failureRecovery": true,
+    "agentConfig": {
+      "locator": "v3",
+      "assertion": "v3",
+      "visual-assertion": "v3",
+      "text-extraction": "v3",
+      "failure-recovery": "v2"
+    }
+  },
+  "browser": {
+    "autoExpandIframes": true
+  },
+  "updatedAt": "2026-06-01T18:08:36.712Z",
+  "finishedAt": "2026-06-01T18:08:36.712Z"
+}

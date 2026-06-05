@@ -1,0 +1,15 @@
+fileType: momentic/test/v2
+id: zulu-modest-vowel-sparks-around
+version: 1.0.24
+url: https://qrdev.deepmindlabs.ai
+description: site visit and create token
+defaultEnv: web
+viewport: 1920, 1080
+browserType: Google Chrome
+steps:
+  - scrollDown: 700
+  - click: the branch selection combobox (search or select a branch location) in the
+      center form card
+  - click: the 'Baridhara' option in the branch dropdown list
+  - click: the primary 'Start check-in' button in the center join-queue card
+  - click: the Get Token button in the Baridhara branch card
